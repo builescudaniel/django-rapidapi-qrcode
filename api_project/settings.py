@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = str(os.getenv('SECRET_KEY'))
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', 'your-domain.com', '8bc7-2a02-a58-8283-ec00-bd91-bedf-792-7d2c.ngrok-free.app']
+ALLOWED_HOSTS = ['127.0.0.1']
 
 
 # Application definition
